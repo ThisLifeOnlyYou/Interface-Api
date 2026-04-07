@@ -1,0 +1,24 @@
+# 核心测试框架
+pytest==7.4.0
+pytest-xdist==3.3.0
+pytest-html==4.1.0
+pytest-rerunfailures==12.0
+pytest-timeout==2.1.0
+
+# HTTP 请求
+requests==2.31.0
+
+# 配置管理
+python-dotenv==1.0.0
+
+# 数据生成
+faker==19.0.0
+
+# 报告
+allure-pytest==2.13.0
+
+# 可选：数据库支持
+PyMySQL==1.1.0
+
+# 可选：YAML 数据支持
+PyYAML==6.0.3
