@@ -35,3 +35,5 @@ def test_save_goods(test_data_store, user_name):
     # 数据断言
     assert_utils.assert_business_data(data, "code", 200, "保存商品状态码")
     assert_utils.assert_business_data(data, "msg", f"保存商品成功", "保存商品提示")
+
+    
